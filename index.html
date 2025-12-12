@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qurilish</title>
+  <style>
+    * {padding: 0;margin: 0;box-sizing: border-box;}body {background-color: #F2F2F2;}.header {background-color: white;border-bottom: 1px solid #01A3D4;border-radius: 0 0 24px 24px;width: 100%;display: flex;align-items: center;justify-content: center;gap: 10px;padding: 16px;margin-bottom: 12px;}.header__date {font-family: header, sans-serif;font-weight: 500;font-size: 14px;line-height: 16px;flex-shrink: 0;padding: 5px 10px;border: 1px solid #01A3D4;border-radius: 20px;display: flex;align-items: center;}.hero__title {font-family: "Kuunaris", sans-serif;text-transform: uppercase;font-size: clamp(27px, 8vw, 32px);line-height: 120%;margin-left: auto;margin-right: auto;position: relative;z-index: 20;text-align: center;margin-bottom: 32px;}.hero__title span {color: #01A3D4;}.hero__git_box {margin-top: 59px;}html {overflow-x: hidden;}body {font-family: sans-serif;}.hero {padding-bottom: 33px;background-color: #F2F2F2;}.hero__container {padding-top: 10px;max-width: 1200px;width: 100%;margin-left: auto;margin-right: auto;display: flex;align-items: center;flex-direction: column;position: relative;}.hero__gift_box, .hero__top {display: flex;align-items: center;}.hero__top {background-color: #dadada;position: absolute;top: 0;max-width: 210px;width: 100%;padding: 26px 30px;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;justify-content: center;gap: 66px;}.hero__btn-box {max-width: 430px;width: 100%;}.hero__registerBtn {font-family: Kuunari, sans-serif;text-decoration: none;display: flex;align-items: center;cursor: pointer;justify-content: center;max-width: 341px;width: 100%;background-color: #0693FF;box-shadow: 0px 4px 24px 0px #FFFFFF33 inset;box-shadow: 0px -6px 14px 0px #FFFFFF26 inset;box-shadow: 0px 4px 0px 0px #0073CC;border-radius: 21px;font-weight: 500;font-size: 30px;line-height: 35px;color: #fff;text-align: center;padding: 19.5px 20px;height: 74px;margin-bottom: 15px;border: none;overflow: none;text-transform: uppercase;display: flex;align-items: center;}@media (min-width: 1085px) {.only_mobile {display: none;}}.hero__right, .only_desktop, .text-14>br {display: none;}.hero__container {justify-content: center;padding-top: 0;max-width: 450px;}.hero__top {margin-left: auto;margin-right: auto;position: static;padding: 10px 20px;margin-bottom: 20px;border-bottom-left-radius: 24px;border-bottom-right-radius: 24px;gap: 10px;font-size: 18px;justify-content: center;}#timer {font-family: Kuunari, sans-serif;font-weight: 400;margin-top: 5px;font-size: 34px;line-height: 120%;text-align: center;text-transform: uppercase;color: #000;}.hero__registerBtn, .text-14 {margin-left: auto;margin-right: auto;}.hero__left_bottom {display: flex;flex-direction: column-reverse;position: relative;z-index: 30;padding-left: 10px;padding-right: 10px;width: 100%;}.speakerImg {margin-bottom: 15px;width: 278px;height: 330px;object-fit: contain;position: relative;z-index: 20;margin-bottom: -12px;}.hero__center {width: 100%;position: relative;text-align: left;display: flex;flex-direction: column;align-items: center;}.bg_img {height: auto;width: 100%;object-fit: contain;position: absolute;bottom: -40px;}.gradient {background: linear-gradient(180deg, rgba(242, 242, 242, 0) 79.7%, #F2F2F2 100%), linear-gradient(180deg, #F2F2F2 1.77%, rgba(242, 242, 242, 0) 25.89%);position: absolute;max-width: 499px;width: 100%;height: 420px;top: -66px;}.description {padding-bottom: 40px;background-color: #f2f2f2;padding-left: 10px;padding-right: 10px;}.description__container {padding-top: 10px;max-width: 1200px;width: 100%;margin-left: auto;margin-right: auto;padding-left: 10px;padding-right: 10px;display: flex;flex-direction: column;align-items: center;}.description__title {font-family: Kuunari, sans-serif;font-weight: 700;font-size: 34px;line-height: 135%;text-align: center;text-transform: uppercase;color: #200E00;margin-bottom: 24px;}.description__row {display: grid;grid-template-columns: 1fr 1fr 1fr;margin-bottom: 49px;}.description__col {border: 1px solid #01A3D4;border-radius: 8px;display: flex;align-items: center;justify-content: center;position: relative;width: 100%;max-width: 309px;margin: 0 auto;padding: 20px 27px 16px 0;}.description__col:nth-child(2) {padding: 20px 29px 16px 0;}.description__col:nth-child(3) {padding: 20px 24px 16px 00;}.description__col-number {position: absolute;left: 0;transform: translateX(-50%);padding: 21px 29px;border-radius: 30px;border: 1px solid #01A3D4;background-color: #01A3D4;font-weight: 400;font-size: 40px;line-height: 62px;text-align: center;color: #fff;}.description__col-text {font-weight: 400;font-size: 14px;line-height: 140%;}.description__col-text span {font-weight: 600;}.description__row {grid-template-columns: 1fr;margin-bottom: 20px;gap: 24px;width: 100%;margin-left: auto;margin-right: auto;}.description__col-number {font-size: 14px;width: 28px;height: 28px;display: flex;align-items: center;justify-content: center;line-height: 23px;border-radius: 8px;left: 50%;padding: 8px;top: 0;transform: translateX(-50%) translateY(-50%);}.blur-up {filter: blur(10px);transition: filter 0.4s ease-out;}.blur-up.loaded {filter: blur(0);}@media (max-width:640px) {.hero__title {margin-bottom: 30px;}}@media (max-width: 370px) {.hero__registerBtn {font-size: 28px;}.bg_img {bottom: -20px;}.header__date {font-size: 13px;padding: 4px 8px;}.hero__title {margin-bottom: 20px;}.speakerImg {width: 250px;height: 300px;}}
+  </style>
+  <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="./css/modal.css" />
+  </noscript>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero__container">
+      <div class="header">
+        <p class="header__date">
+          24-Dekabr 20:00da
+        </p>
+      </div>
+
+      <h1 class="hero__title">
+        Denov shahar markazidan xonadonlarni <span>60 oyga bo'lib to'lashga</span> xarid qiling
+      </h1>
+      <div class="hero__center">
+        <img src="./images/speaker.avif" alt="Invertor rasmi" decoding="async" loading="lazy" class="speakerImg"
+          width="249" height="281">
+
+        <img src="./images/bg__mini.avif" data-src="./images/bg.avif" alt="bg rasmi" decoding="async" loading="lazy"
+          class="bg_img blur-up minifyImg" width="499" height="367">
+          <div class="gradient"></div>
+      </div>
+
+      <div class="hero__left_bottom">
+        <div class="hero__btn-box">
+          <a class="hero__registerBtn registerBtn" href="#">
+            bepul qatnashish
+          </a>
+        </div>
+      </div>
+
+      <div id="timer">2:00</div>
+    </div>
+  </section>
+
+  <div class="description">
+    <div class="description__container">
+      <div class="description__row">
+        <div class="description__col">
+          <h3 class="description__col-number only_mobile">01</h3>
+          <p class="description__col-text">
+            Loyihamiz <span>shahar markazida</span> ECO <br> bog' oldida barcha qulayliklarga ega
+          </p>
+        </div>
+        <div class="description__col">
+          <h3 class="description__col-number only_mobile">02</h3>
+          <p class="description__col-text">
+            <span>Surxondaryoliklar</span> uchun mega <br> aksiya obunachilarimiz va xonadon <br> xarid qilgan
+            mijozlarimizga <br> <span>2 ta uy sovg'a</span> qilamiz
+          </p>
+        </div>
+        <div class="description__col">
+          <h3 class="description__col-number only_mobile">03</h3>
+          <p class="description__col-text">
+            Uylarimiz yashil xududda joylashgan <br> va barcha <span>rasmiy hujjatlarga ega</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <a class="hero__registerBtn registerBtn" href="#">
+      bepul qatnashish
+    </a>
+  </div>
+
+
+  <script defer>
+    document.addEventListener("DOMContentLoaded", (() => { const t = document.getElementById("timer"); let e = 120; const n = setInterval((() => { const a = Math.floor(e / 60), o = e % 60; t.textContent = `${String(a).padStart(2, "0")}:${String(o).padStart(2, "0")}`, e <= 0 && clearInterval(n), e-- }), 1e3) })); const img = document.querySelector(".bg_img"), bigSrc = img.getAttribute("data-src"), highRes = new Image; highRes.src = bigSrc, highRes.onload = () => { img.src = bigSrc, img.classList.remove("blur-up") };
+  </script>
+</body>
+
+</html>

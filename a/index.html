@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qurilish</title>
+  <style>
+a {text-decoration: none;color: white;}.date__container, .date__top {display: flex;align-items: center;}.center, .container, .date, .date__inner-list, .date__inner-text {position: relative;}.date__inner {position: relative;z-index: 30;width: 100%;padding-top: 21px;}.date__inner-item:not(:last-child), .footer-info h2 {margin-bottom: 7px;}* {margin: 0;padding: 0;box-sizing: border-box;}body {background-color: #111A29;font-family: Montserrat, sans-serif;font-weight: 400;}a, li, ol, ul {list-style: none;text-decoration: none;}.container {max-width: 1624px;width: 100%;margin: 0 auto;padding: 0 20px;}.date__top-left {display: flex;align-items: center;}.date__top-left {padding: 5px 25px 5px 23px;border: 1px solid rgba(255, 255, 255, 0.5);border-radius: 50px;margin-right: 12px;}.date__top-left-dot {background-color: #D90508;width: 11px;height: 11px;border-radius: 50%;margin-right: 5px;}.date__top-left-title {font-weight: 500;font-size: 13px;}.date__inner-title {margin-bottom: 14px !important;font-family: "Mulish", sans-serif;font-weight: 900;font-size: clamp(24px, 7.5vw, 29px);text-transform: uppercase;line-height: 125%;text-align: center;span {color: #FFCE00;}}.date__inner-title-span {color: #FFCE00;font-size: clamp(19px, 6vw, 22px);}.center {width: 100%;padding-top: 29px;}.date__inner-info {max-width: fit-content;width: 100%;margin-left: auto;margin-right: auto;border-radius: 10px;padding: 7px 13px;background-color: #24407B;position: relative;z-index: 20;max-width: 254px;width: 100%;}.date__bottom {margin-bottom: 24px;}.date__bottom-btn {transform-origin: center;animation: pulse 2s ease-in-out infinite;will-change: transform;font-weight: 600;font-size: clamp(16px, 5vw, 18px);padding: 16px 30px;border: none;cursor: pointer;border-radius: 20px;background: linear-gradient(90deg, #D40000 0%, #FF4545 51.44%, #D40000 100%);box-shadow: 0px 5px 0px 0px #BF3500;color: #ffffff;max-width: 331px;width: 100%;display: flex;align-items: center;justify-content: center;gap: 9px;text-transform: uppercase;span {width: 25px;height: 25px;background-color: #fff;border-radius: 50%;display: flex;align-items: center;justify-content: center;}}.flex {display: flex;align-items: center;gap: 54px;margin-bottom: 30px;}.date__timer {background-color: #fff;color: #000;z-index: 20;padding: 5px 8px 5px;display: flex;align-items: center;justify-content: center;font-size: 28px;font-weight: 700;border-radius: 5px;box-shadow: 2px 4px 15px 1px #24407B;position: relative;z-index: 30;width: fit-content;min-height: 40px;max-width: 111px;width: 100%;margin-bottom: 13px;}.date__inner-text {font-weight: 700;font-size: 17px;color: grey;z-index: 20;}.shadow {width: 114px;height: 314px;position: absolute;background-color: #750e0e;filter: blur(100px);top: 180px;right: 50%;transform: translateX(50%);z-index: -1;}.flex {flex-direction: column-reverse;align-items: start;gap: 15px;}.date_gradient {display: flex;position: absolute;bottom: -10px;width: 100%;z-index: 20;height: 254px;background: linear-gradient(0deg, #000 57%, rgba(23, 23, 23, 0) 100%);}.date {padding: 0;color: white;min-height: 100vh;overflow-x: hidden;text-align: center;}.date__container {flex-direction: column;max-width: 390px;padding-left: 10px;padding-right: 10px;}.date__top {flex-direction: column;margin-bottom: 18px;}.date__inner-list {text-align: start;z-index: 1;margin-bottom: 20px;max-width: 189px;width: 100%;z-index: 30;position: relative;}.date__inner-item {font-family: Montserrat, sans-serif;font-size: 14px;line-height: 21px;font-weight: 500;span {font-weight: 700;}}.date__inner-list-title {position: relative;z-index: 30;font-size: 14px;max-width: 236px;line-height: 22px;margin-bottom: 4px;font-weight: 700;line-height: 28px;color: transparent;background: linear-gradient(90deg, #D4D3D3 0%, #6E6E6E 100%);background-clip: text;margin-right: auto;text-align: left !important;line-height: 18px;}.date__inner-box {position: relative;margin-bottom: 70px;}.date__inner-img {position: absolute;left: 65px;top: -8px;}.date__bottom {flex-direction: column-reverse;align-items: start;z-index: 20;}.speaker__gradient {border-radius: 100%;width: 299px;height: 295px;background-color: #2664EB;opacity: 40%;position: absolute;top: 0%;left: 190px;}.date__bottom-btn {margin-top: 43px;padding: 22px 0;width: 100%;margin-right: 0;margin-bottom: 11px;margin-top: 10px;max-width: 331px;margin-left: auto;margin-right: auto;border-radius: 20px;display: flex;z-index: 30;}.bonus_sec {margin-bottom: 30px;position: relative;z-index: 29;}.gradient {background: linear-gradient(0deg, #111A29 72.78%, rgba(23, 23, 23, 0) 100%);width: 200%;left: -50%;height: 254px;position: absolute;bottom: -30px;z-index: 20;}.date__img {top: -50px;position: absolute;width: 282px;height: 328px;right: -70px;object-fit: contain;object-position: top;margin-left: auto;z-index: 20;margin-right: auto;}.date__inner-info-text {text-align: center;font-size: 14px;font-weight: 400;font-family: Poppins, sans-serif;line-height: 18px;}.freeText {font-family: Montserrat, sans-serif;font-size: 16px;margin-bottom: 19px;color: #808080;}@media (max-width:380px) {.center {padding-left: 20px;padding-right: 20px;}}@media screen and (max-width: 355px) {.container {padding-left: 0;padding-right: 0;}.date__inner-info {max-width: 250px;}.date__inner-info-text {font-size: 13px;}.date__img {right: -85px;}.gradient {margin-bottom: -5px;}}.free__text {font-size: 12px;position: relative;z-index: 30;margin-top: -50px;margin-bottom: 15px;margin-left: 15px;display: flex;justify-content: center;align-items: end;img {margin-bottom: -25px;margin-left: -7px;}}.gift-wrapper {padding: 4px;border-radius: 20px;background-color: #090C13;border: 1px solid #0073CC;box-shadow: 0px 0px 20px 0px #0073CC80;max-width: 316px;width: 100%;position: relative;z-index: 20;margin-top: 16px;}.gift {display: flex;align-items: center;gap: 12px;width: 100%;border-radius: 16px;padding: 10px 4px 6px 10px;}.gift__img {object-fit: contain;max-width: 75px;width: 100%;height: auto;}.gift__title {font-family: "Big Shoulders Display", sans-serif;font-weight: 900;font-size: clamp(25px, 5.6vw, 32px);line-height: 100%;text-transform: uppercase;margin-bottom: 7px;text-align: start;}.gift__description {font-family: Poppins, sans-serif;font-weight: 400;font-size: 11px;line-height: 150%;text-align: start;}.gift__description span {color: #FFE791;}.date__bottom-btn {position: relative;display: inline-block;outline: none;}.date__bottom-btn::after {content: "";position: absolute;inset: -6px;border-radius: inherit;box-shadow: 0 0 0 0 #E84B0F;animation: cta-pulse 1.8s ease-out infinite;pointer-events: none;}.date__bottom-btn:hover::after, .date__bottom-btn:focus-visible::after {animation-duration: 1.2s;box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.35);}.date__bottom-btn:focus-visible {box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.6);border-radius: 9999px;}@media (prefers-reduced-motion: reduce) {.date__bottom-btn::after, .date__bottom-btn:hover::after {animation: none;box-shadow: 0 0 0 6px rgba(59, 130, 246, 0.25);}}@keyframes cta-pulse {0% {transform: scale(0.98);opacity: 0.55;box-shadow: 0 0 0 0 #E84B0F;}60% {transform: scale(1.12);opacity: 0;box-shadow: 0 0 0 18px rgba(59, 130, 246, 0);}100% {transform: scale(1.12);opacity: 0;box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);}}.date__inner__text {max-width: 319px;font-size: 20px;font-family: Mulish, sans-serif;margin-bottom: 15px;}.date__bottom-btn {display: flex;align-items: center;gap: 10px;height: 74px;}.date__bottom-btn span {width: 40px;height: 40px;display: flex;align-items: center;justify-content: center;border-radius: 50%;background: linear-gradient(180deg, #2AABEE 0%, #229ED9 99.26%);border: 1px solid #FFFFFF;}
+  </style>
+  <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="./css/modal.css" />
+  </noscript>
+</head>
+
+<body>
+  <div class="date">
+    <div class="container date__container">
+      <div class="date__inner">
+        <div class="date__top registerBtn">
+          <div class="date__top-left">
+            <div class="date__top-left-dot"></div>
+            <h4 class="date__top-left-title">24-Dekabr | 20:00</h4>
+          </div>
+        </div>
+        <h1 class="date__inner-title">
+          Xonadon xarid qilib <br>
+          <span>uy yutib oling</span>
+        </h1>
+
+        <div class="date__inner-info">
+          <p class="date__inner-info-text">
+            24-Dekabr kuni bo’lib o’tadigan onlayn taqdimotga qatnashing 
+          </p>
+        </div>
+        <div class="date__inner-box">
+          <img class="date__inner-img" src="./images/arrow-bottom.svg" loading="lazy" decoding="async"
+            alt="arrow-bottom">
+        </div>
+      </div>
+      <div class="center">
+        <ul class="date__inner-list">
+          <li class="date__inner-item">
+            — Loyihamiz <span>shahar <br> markazida</span> ECO bog' oldida <br> barcha qulayliklarga ega
+          </li>
+          <li class="date__inner-item">
+            — Denov shahri markazidan <br> xonadonlarni <span>60 oyga bo’lib <br> to’lash</span> evaziga xarid qiling
+          </li>
+          <li class="date__inner-item">
+            — Uylarimiz yashil xududda <br> joylashgan va barcha <span>rasmiy <br> hujjatlarga ega</span>
+          </li>
+        </ul>
+        <div class="date__timer" id="timer">02:00</div>
+        <img src="/a/images/speaker.avif" alt="Invertor rasmi" decoding="async" loading="lazy"
+          class="date__img only_tablet" width="282" height="328">
+
+        <div class="speaker__gradient"></div>
+        <div class="flex">
+          <a class="date__bottom-btn registerBtn" href="#">
+            taqdimotga qo’shilish
+            <span>
+              <img src="./images/telegram.avif" decoding="async" loading="lazy" alt="telegram" width="21" height="21">
+            </span>
+          </a>
+        </div>
+        <div class="gradient"></div>
+      </div>
+      <p class="free__text registerBtn">
+        Telegramga qo’shilish uchun bosing
+        <img src="./images/arrrow-top.avif" loading="lazy" decoding="async" alt="arrrow-top">
+      </p>
+      <div class="" style="padding: 0 10px; max-width: 346px; width: 100%;">
+
+        <div class="gift-wrapper" style="margin-bottom: 32px;">
+          <div class="gift">
+            <img class="gift__img" loading="lazy" src="./images/gift.avif" decoding="async" alt="gift icon">
+            <div class="">
+              <h3 class="gift__title">xonadon-sovg'a</h3>
+              <p class="gift__description">
+                2 ta xonadon obunachilarimiz va <br> xonadon xarid qilganlar uchun
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <script defer>
+    document.addEventListener("DOMContentLoaded", (() => { const t = document.getElementById("timer"); let e = 120; const n = setInterval((() => { const a = Math.floor(e / 60), o = e % 60; t.textContent = `${String(a).padStart(2, "0")}:${String(o).padStart(2, "0")}`, e <= 0 && clearInterval(n), e-- }), 1e3) }));
+  </script>
+  <script defer src="../js/app.js"></script>
+  <script defer src="../js/phoneFormatter.js"></script>
+  <script defer src="../js/thankYou.js"></script>
+</body>
+
+</html>
